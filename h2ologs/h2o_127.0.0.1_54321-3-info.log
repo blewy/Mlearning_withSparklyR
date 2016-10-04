@@ -1,0 +1,375 @@
+10-04 23:32:48.331 127.0.0.1:54321       1124   #r thread INFO: ----- H2O started  -----
+10-04 23:32:48.343 127.0.0.1:54321       1124   #r thread INFO: Build git branch: rel-turing
+10-04 23:32:48.343 127.0.0.1:54321       1124   #r thread INFO: Build git hash: 3b286dea7b719b6ef2c2f5f7728648f2440a1502
+10-04 23:32:48.343 127.0.0.1:54321       1124   #r thread INFO: Build git describe: jenkins-rel-turing-6
+10-04 23:32:48.343 127.0.0.1:54321       1124   #r thread INFO: Build project version: 3.10.0.6 (latest version: 3.10.0.7)
+10-04 23:32:48.343 127.0.0.1:54321       1124   #r thread INFO: Build age: 1 month and 8 days
+10-04 23:32:48.343 127.0.0.1:54321       1124   #r thread INFO: Built by: 'jenkins'
+10-04 23:32:48.343 127.0.0.1:54321       1124   #r thread INFO: Built on: '2016-08-26 11:15:18'
+10-04 23:32:48.343 127.0.0.1:54321       1124   #r thread INFO: Processed H2O arguments: [-name, sparkling-water-Filipe_1463892501, -ga_opt_out, -log_level, INFO, -baseport, 54321, -ip, localhost, -log_dir, /Users/macintosh/Documents/Estudos/Projectos DS/SparklyR/h2ologs]
+10-04 23:32:48.343 127.0.0.1:54321       1124   #r thread INFO: Java availableProcessors: 4
+10-04 23:32:48.343 127.0.0.1:54321       1124   #r thread INFO: Java heap totalMemory: 988.0 MB
+10-04 23:32:48.343 127.0.0.1:54321       1124   #r thread INFO: Java heap maxMemory: 988.0 MB
+10-04 23:32:48.343 127.0.0.1:54321       1124   #r thread INFO: Java version: Java 1.8.0_91 (from Oracle Corporation)
+10-04 23:32:48.343 127.0.0.1:54321       1124   #r thread INFO: JVM launch parameters: [-Xms1g, -Xmx1g]
+10-04 23:32:48.344 127.0.0.1:54321       1124   #r thread INFO: OS version: Mac OS X 10.11.6 (x86_64)
+10-04 23:32:48.344 127.0.0.1:54321       1124   #r thread INFO: Machine physical memory: 8.00 GB
+10-04 23:32:48.344 127.0.0.1:54321       1124   #r thread INFO: X-h2o-cluster-id: 1475620367059
+10-04 23:32:48.344 127.0.0.1:54321       1124   #r thread INFO: User name: 'Filipe'
+10-04 23:32:48.344 127.0.0.1:54321       1124   #r thread INFO: Opted out of sending usage metrics.
+10-04 23:32:48.344 127.0.0.1:54321       1124   #r thread INFO: IPv6 stack selected: false
+10-04 23:32:48.344 127.0.0.1:54321       1124   #r thread INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:822:6dff:fe7d:e31e%awdl0/name:awdl0 (awdl0)
+10-04 23:32:48.344 127.0.0.1:54321       1124   #r thread INFO: Possible IP Address: en1 (en1), fe80:0:0:0:2acf:e9ff:fe65:5bcf%en1
+10-04 23:32:48.344 127.0.0.1:54321       1124   #r thread INFO: Possible IP Address: en1 (en1), 192.168.1.5
+10-04 23:32:48.344 127.0.0.1:54321       1124   #r thread INFO: Possible IP Address: lo0 (lo0), fe80:0:0:0:0:0:0:1%lo0
+10-04 23:32:48.344 127.0.0.1:54321       1124   #r thread INFO: Possible IP Address: lo0 (lo0), 0:0:0:0:0:0:0:1
+10-04 23:32:48.344 127.0.0.1:54321       1124   #r thread INFO: Possible IP Address: lo0 (lo0), 127.0.0.1
+10-04 23:32:48.344 127.0.0.1:54321       1124   #r thread INFO: Internal communication uses port: 54322
+10-04 23:32:48.344 127.0.0.1:54321       1124   #r thread INFO: Listening for HTTP and REST traffic on http://127.0.0.1:54321/
+10-04 23:32:48.376 127.0.0.1:54321       1124   #r thread INFO: H2O cloud name: 'sparkling-water-Filipe_1463892501' on localhost/127.0.0.1:54321, discovery address /233.162.82.95:59810
+10-04 23:32:48.376 127.0.0.1:54321       1124   #r thread INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+10-04 23:32:48.376 127.0.0.1:54321       1124   #r thread INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 Filipe@127.0.0.1'
+10-04 23:32:48.376 127.0.0.1:54321       1124   #r thread INFO:   2. Point your browser to http://localhost:55555
+10-04 23:32:48.376 127.0.0.1:54321       1124   #r thread INFO: Log dir: '/Users/macintosh/Documents/Estudos/Projectos DS/SparklyR/h2ologs'
+10-04 23:32:48.376 127.0.0.1:54321       1124   #r thread INFO: Cur dir: '/Users/macintosh/Documents/Estudos/Projectos DS/SparklyR'
+10-04 23:32:48.390 127.0.0.1:54321       1124   #r thread INFO: HDFS subsystem successfully initialized
+10-04 23:32:48.397 127.0.0.1:54321       1124   #r thread INFO: S3 subsystem successfully initialized
+10-04 23:32:48.397 127.0.0.1:54321       1124   #r thread INFO: Flow dir: '/Users/macintosh/h2oflows'
+10-04 23:32:48.410 127.0.0.1:54321       1124   #r thread INFO: Cloud of size 1 formed [localhost/127.0.0.1:54321]
+10-04 23:32:48.435 127.0.0.1:54321       1124   #r thread INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, CSV]
+10-04 23:32:48.435 127.0.0.1:54321       1124   #r thread INFO: Registered 0 extensions in: 510mS
+10-04 23:32:48.942 127.0.0.1:54321       1124   #r thread INFO: Registered: 128 REST APIs in: 506mS
+10-04 23:32:48.942 127.0.0.1:54321       1124   #r thread INFO: 
+10-04 23:32:48.943 127.0.0.1:54321       1124   #r thread INFO: Open H2O Flow in your web browser: http://127.0.0.1:54321
+10-04 23:32:48.943 127.0.0.1:54321       1124   #r thread INFO: 
+10-04 23:32:54.684 127.0.0.1:54321       1124   #roup-2-2 INFO: Registered: 204 schemas in 512ms
+10-04 23:32:54.768 127.0.0.1:54321       1124   #8571-193 INFO: GET /, parms: {}
+10-04 23:32:54.780 127.0.0.1:54321       1124   #8571-194 INFO: GET /, parms: {}
+10-04 23:32:54.899 127.0.0.1:54321       1124   #8571-196 INFO: GET /3/InitID, parms: {}
+10-04 23:32:54.901 127.0.0.1:54321       1124   #8571-196 INFO: Locking cloud to new members, because water.api.schemas3.InitIDV3
+10-04 23:32:55.419 127.0.0.1:54321       1124   #8571-198 INFO: GET /3/Frames/frame_rdd_41, parms: {row_count=10}
+10-04 23:32:58.834 127.0.0.1:54321       1124   #8571-199 INFO: GET /, parms: {}
+10-04 23:32:58.843 127.0.0.1:54321       1124   #8571-193 INFO: GET /, parms: {}
+10-04 23:32:58.865 127.0.0.1:54321       1124   #8571-195 INFO: GET /3/InitID, parms: {}
+10-04 23:32:59.033 127.0.0.1:54321       1124   #8571-197 INFO: GET /3/Frames/frame_rdd_51, parms: {row_count=10}
+10-04 23:33:03.485 127.0.0.1:54321       1124   #8571-199 INFO: GET /3/ModelBuilders/glm, parms: {}
+10-04 23:33:03.654 127.0.0.1:54321       1124   #8571-194 INFO: POST /3/ModelBuilders/glm, parms: {training_frame=frame_rdd_41, response_column=mpg, ignored_columns=["disp","hp","drat","qsec","vs","am","gear","carb","cyl8"], lambda_search=TRUE}
+10-04 23:33:03.755 127.0.0.1:54321       1124   FJ-1-7    INFO: Building H2O GLM model with these parameters:
+10-04 23:33:03.790 127.0.0.1:54321       1124   FJ-1-7    INFO: {"_train":{"name":"frame_rdd_41","type":"Key"},"_valid":null,"_nfolds":0,"_keep_cross_validation_predictions":false,"_keep_cross_validation_fold_assignment":false,"_parallelize_cross_validation":true,"_auto_rebalance":true,"_seed":-1,"_fold_assignment":"AUTO","_categorical_encoding":"AUTO","_distribution":"AUTO","_tweedie_power":1.5,"_quantile_alpha":0.5,"_huber_alpha":0.9,"_ignored_columns":["disp","hp","drat","qsec","vs","am","gear","carb","cyl8"],"_ignore_const_cols":true,"_weights_column":null,"_offset_column":null,"_fold_column":null,"_is_cv_model":false,"_score_each_iteration":false,"_max_runtime_secs":0.0,"_stopping_rounds":3,"_stopping_metric":"deviance","_stopping_tolerance":1.0E-4,"_response_column":"mpg","_balance_classes":false,"_max_after_balance_size":5.0,"_class_sampling_factors":null,"_max_confusion_matrix_size":20,"_checkpoint":null,"_pretrained_autoencoder":null,"_standardize":true,"_family":"gaussian","_link":"family_default","_solver":"AUTO","_tweedie_variance_power":0.0,"_tweedie_link_power":1.0,"_alpha":null,"_lambda":null,"_missing_values_handling":"MeanImputation","_prior":-1.0,"_lambda_search":true,"_nlambdas":-1,"_non_negative":false,"_exactLambdas":false,"_lambda_min_ratio":-1.0,"_use_all_factor_levels":false,"_max_iterations":-1,"_intercept":true,"_beta_epsilon":1.0E-4,"_objective_epsilon":-1.0,"_gradient_epsilon":-1.0,"_obj_reg":-1.0,"_compute_p_values":false,"_remove_collinear_columns":false,"_interactions":null,"_early_stopping":true,"_beta_constraints":null,"_max_active_predictors":-1,"_stdOverride":false}
+10-04 23:33:03.794 127.0.0.1:54321       1124   FJ-1-7    INFO: Dropping ignored columns: [disp, hp, drat, qsec, vs, am, gear, carb, cyl8]
+10-04 23:33:03.919 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.78E1 obj=24.25 imp=.1E1 bdf=.18E2] Got 0 active columns out of 2 total
+10-04 23:33:03.932 127.0.0.1:54321       1124   FJ-1-7    INFO: 2 variables failed KKT conditions, adding them to the model and recomputing.
+10-04 23:33:03.933 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.78E1 obj=12.125 imp=.5E0 bdf=.0E0] Got 2 active columns out of 2 total
+10-04 23:33:03.933 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.78E1 obj=12.119 imp=.48E-3 bdf=.34E-1] solution has 3 nonzeros
+10-04 23:33:03.934 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.78E1 obj=12.119 imp=.48E-3 bdf=.34E-1] train deviance = 23.722611159700136, test deviance = NaN
+10-04 23:33:03.935 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.75E1 obj=12.107 imp=.48E-3 bdf=.34E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.937 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.75E1 obj=12.101 imp=.52E-3 bdf=.35E-1] solution has 3 nonzeros
+10-04 23:33:03.937 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.75E1 obj=12.101 imp=.52E-3 bdf=.35E-1] train deviance = 23.16948544624438, test deviance = NaN
+10-04 23:33:03.938 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.71E1 obj=12.078 imp=.52E-3 bdf=.35E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.939 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.71E1 obj=12.071 imp=.53E-3 bdf=.35E-1] solution has 3 nonzeros
+10-04 23:33:03.939 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.71E1 obj=12.071 imp=.53E-3 bdf=.35E-1] train deviance = 22.613699213451735, test deviance = NaN
+10-04 23:33:03.940 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.68E1 obj=12.036 imp=.53E-3 bdf=.35E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.942 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.68E1 obj=12.03 imp=.53E-3 bdf=.36E-1] solution has 3 nonzeros
+10-04 23:33:03.942 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.68E1 obj=12.03 imp=.53E-3 bdf=.36E-1] train deviance = 22.056017358012735, test deviance = NaN
+10-04 23:33:03.943 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.65E1 obj=11.985 imp=.53E-3 bdf=.36E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.944 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.65E1 obj=11.978 imp=.53E-3 bdf=.36E-1] solution has 3 nonzeros
+10-04 23:33:03.944 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.65E1 obj=11.978 imp=.53E-3 bdf=.36E-1] train deviance = 21.497215036549317, test deviance = NaN
+10-04 23:33:03.945 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.62E1 obj=11.922 imp=.53E-3 bdf=.36E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.946 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.62E1 obj=11.916 imp=.54E-3 bdf=.37E-1] solution has 3 nonzeros
+10-04 23:33:03.946 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.62E1 obj=11.916 imp=.54E-3 bdf=.37E-1] train deviance = 20.938085362809147, test deviance = NaN
+10-04 23:33:03.947 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.59E1 obj=11.85 imp=.54E-3 bdf=.37E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.948 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.59E1 obj=11.844 imp=.54E-3 bdf=.38E-1] solution has 3 nonzeros
+10-04 23:33:03.949 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.59E1 obj=11.844 imp=.54E-3 bdf=.38E-1] train deviance = 20.37943556055306, test deviance = NaN
+10-04 23:33:03.949 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.57E1 obj=11.769 imp=.54E-3 bdf=.38E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.950 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.57E1 obj=11.762 imp=.54E-3 bdf=.38E-1] solution has 3 nonzeros
+10-04 23:33:03.950 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.57E1 obj=11.762 imp=.54E-3 bdf=.38E-1] train deviance = 19.822082877881524, test deviance = NaN
+10-04 23:33:03.951 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.54E1 obj=11.678 imp=.54E-3 bdf=.38E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.952 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.54E1 obj=11.672 imp=.54E-3 bdf=.39E-1] solution has 3 nonzeros
+10-04 23:33:03.952 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.54E1 obj=11.672 imp=.54E-3 bdf=.39E-1] train deviance = 19.266850299281753, test deviance = NaN
+10-04 23:33:03.953 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.52E1 obj=11.579 imp=.54E-3 bdf=.39E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.954 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.52E1 obj=11.573 imp=.55E-3 bdf=.39E-1] solution has 3 nonzeros
+10-04 23:33:03.954 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.52E1 obj=11.573 imp=.55E-3 bdf=.39E-1] train deviance = 18.714562096249477, test deviance = NaN
+10-04 23:33:03.955 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.49E1 obj=11.472 imp=.55E-3 bdf=.39E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.956 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.49E1 obj=11.466 imp=.55E-3 bdf=.4E-1] solution has 3 nonzeros
+10-04 23:33:03.956 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.49E1 obj=11.466 imp=.55E-3 bdf=.4E-1] train deviance = 18.166039261382593, test deviance = NaN
+10-04 23:33:03.957 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.47E1 obj=11.357 imp=.55E-3 bdf=.4E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.957 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.47E1 obj=11.351 imp=.55E-3 bdf=.4E-1] solution has 3 nonzeros
+10-04 23:33:03.958 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.47E1 obj=11.351 imp=.55E-3 bdf=.4E-1] train deviance = 17.62209487422797, test deviance = NaN
+10-04 23:33:03.958 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.45E1 obj=11.236 imp=.55E-3 bdf=.4E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.959 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.45E1 obj=11.23 imp=.55E-3 bdf=.4E-1] solution has 3 nonzeros
+10-04 23:33:03.959 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.45E1 obj=11.23 imp=.55E-3 bdf=.4E-1] train deviance = 17.083529449780183, test deviance = NaN
+10-04 23:33:03.960 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.43E1 obj=11.107 imp=.55E-3 bdf=.4E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.961 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.43E1 obj=11.101 imp=.55E-3 bdf=.41E-1] solution has 3 nonzeros
+10-04 23:33:03.961 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.43E1 obj=11.101 imp=.55E-3 bdf=.41E-1] train deviance = 16.551126322287285, test deviance = NaN
+10-04 23:33:03.962 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.41E1 obj=10.973 imp=.55E-3 bdf=.41E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.962 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.41E1 obj=10.967 imp=.55E-3 bdf=.41E-1] solution has 3 nonzeros
+10-04 23:33:03.962 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.41E1 obj=10.967 imp=.55E-3 bdf=.41E-1] train deviance = 16.025647117834676, test deviance = NaN
+10-04 23:33:03.963 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.39E1 obj=10.833 imp=.55E-3 bdf=.41E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.964 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.39E1 obj=10.827 imp=.55E-3 bdf=.41E-1] solution has 3 nonzeros
+10-04 23:33:03.964 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.39E1 obj=10.827 imp=.55E-3 bdf=.41E-1] train deviance = 15.507827369004909, test deviance = NaN
+10-04 23:33:03.965 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.37E1 obj=10.687 imp=.55E-3 bdf=.41E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.966 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.37E1 obj=10.681 imp=.55E-3 bdf=.41E-1] solution has 3 nonzeros
+10-04 23:33:03.966 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.37E1 obj=10.681 imp=.55E-3 bdf=.41E-1] train deviance = 14.998372323719574, test deviance = NaN
+10-04 23:33:03.966 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.35E1 obj=10.536 imp=.55E-3 bdf=.41E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.967 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.35E1 obj=10.531 imp=.55E-3 bdf=.41E-1] solution has 3 nonzeros
+10-04 23:33:03.967 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.35E1 obj=10.531 imp=.55E-3 bdf=.41E-1] train deviance = 14.497952998162077, test deviance = NaN
+10-04 23:33:03.968 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.34E1 obj=10.382 imp=.55E-3 bdf=.41E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.969 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.34E1 obj=10.376 imp=.54E-3 bdf=.42E-1] solution has 3 nonzeros
+10-04 23:33:03.969 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.34E1 obj=10.376 imp=.54E-3 bdf=.42E-1] train deviance = 14.00720252048643, test deviance = NaN
+10-04 23:33:03.970 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.32E1 obj=10.223 imp=.54E-3 bdf=.42E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.970 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.32E1 obj=10.217 imp=.54E-3 bdf=.42E-1] solution has 3 nonzeros
+10-04 23:33:03.970 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.32E1 obj=10.217 imp=.54E-3 bdf=.42E-1] train deviance = 13.526712807897107, test deviance = NaN
+10-04 23:33:03.971 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.31E1 obj=10.06 imp=.54E-3 bdf=.42E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.972 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.31E1 obj=10.055 imp=.54E-3 bdf=.42E-1] solution has 3 nonzeros
+10-04 23:33:03.972 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.31E1 obj=10.055 imp=.54E-3 bdf=.42E-1] train deviance = 13.057031614721419, test deviance = NaN
+10-04 23:33:03.973 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.29E1 obj=9.8945 imp=.54E-3 bdf=.42E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.973 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.29E1 obj=9.8892 imp=.53E-3 bdf=.42E-1] solution has 3 nonzeros
+10-04 23:33:03.973 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.29E1 obj=9.8892 imp=.53E-3 bdf=.42E-1] train deviance = 12.598659983404596, test deviance = NaN
+10-04 23:33:03.974 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.28E1 obj=9.726 imp=.53E-3 bdf=.42E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.975 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.28E1 obj=9.7209 imp=.53E-3 bdf=.42E-1] solution has 3 nonzeros
+10-04 23:33:03.975 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.28E1 obj=9.7209 imp=.53E-3 bdf=.42E-1] train deviance = 12.152050124066287, test deviance = NaN
+10-04 23:33:03.976 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.27E1 obj=9.5552 imp=.53E-3 bdf=.42E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.976 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.27E1 obj=9.5502 imp=.52E-3 bdf=.41E-1] solution has 3 nonzeros
+10-04 23:33:03.977 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.27E1 obj=9.5502 imp=.52E-3 bdf=.41E-1] train deviance = 11.717603741518019, test deviance = NaN
+10-04 23:33:03.977 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.26E1 obj=9.3824 imp=.52E-3 bdf=.41E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.978 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.26E1 obj=9.3776 imp=.52E-3 bdf=.41E-1] solution has 3 nonzeros
+10-04 23:33:03.978 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.26E1 obj=9.3776 imp=.52E-3 bdf=.41E-1] train deviance = 11.295705251904678, test deviance = NaN
+10-04 23:33:03.979 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.24E1 obj=9.2081 imp=.52E-3 bdf=.41E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.979 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.24E1 obj=9.2034 imp=.51E-3 bdf=.41E-1] solution has 3 nonzeros
+10-04 23:33:03.980 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.24E1 obj=9.2034 imp=.51E-3 bdf=.41E-1] train deviance = 10.886588442660127, test deviance = NaN
+10-04 23:33:03.980 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.23E1 obj=9.0325 imp=.51E-3 bdf=.41E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.981 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.23E1 obj=9.0279 imp=.5E-3 bdf=.41E-1] solution has 3 nonzeros
+10-04 23:33:03.981 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.23E1 obj=9.0279 imp=.5E-3 bdf=.41E-1] train deviance = 10.490527877081831, test deviance = NaN
+10-04 23:33:03.982 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.22E1 obj=8.856 imp=.5E-3 bdf=.41E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.983 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.22E1 obj=8.8516 imp=.5E-3 bdf=.41E-1] solution has 3 nonzeros
+10-04 23:33:03.983 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.22E1 obj=8.8516 imp=.5E-3 bdf=.41E-1] train deviance = 10.107715726242418, test deviance = NaN
+10-04 23:33:03.984 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.21E1 obj=8.6789 imp=.5E-3 bdf=.41E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.984 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.21E1 obj=8.6747 imp=.49E-3 bdf=.4E-1] solution has 3 nonzeros
+10-04 23:33:03.984 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.21E1 obj=8.6747 imp=.49E-3 bdf=.4E-1] train deviance = 9.738292161571886, test deviance = NaN
+10-04 23:33:03.985 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.2E1 obj=8.5017 imp=.49E-3 bdf=.4E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.986 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.2E1 obj=8.4976 imp=.48E-3 bdf=.4E-1] solution has 3 nonzeros
+10-04 23:33:03.986 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.2E1 obj=8.4976 imp=.48E-3 bdf=.4E-1] train deviance = 9.382346370401251, test deviance = NaN
+10-04 23:33:03.987 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.19E1 obj=8.3246 imp=.48E-3 bdf=.4E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.988 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.19E1 obj=8.3207 imp=.47E-3 bdf=.39E-1] solution has 3 nonzeros
+10-04 23:33:03.988 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.19E1 obj=8.3207 imp=.47E-3 bdf=.39E-1] train deviance = 9.039917959303693, test deviance = NaN
+10-04 23:33:03.988 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.19E1 obj=8.1479 imp=.47E-3 bdf=.39E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.989 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.19E1 obj=8.1441 imp=.47E-3 bdf=.39E-1] solution has 3 nonzeros
+10-04 23:33:03.989 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.19E1 obj=8.1441 imp=.47E-3 bdf=.39E-1] train deviance = 8.710998713717268, test deviance = NaN
+10-04 23:33:03.992 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.18E1 obj=7.9719 imp=.47E-3 bdf=.39E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.996 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.18E1 obj=7.9683 imp=.46E-3 bdf=.39E-1] solution has 3 nonzeros
+10-04 23:33:03.996 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.18E1 obj=7.9683 imp=.46E-3 bdf=.39E-1] train deviance = 8.395534678268177, test deviance = NaN
+10-04 23:33:03.997 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.17E1 obj=7.7969 imp=.46E-3 bdf=.39E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.998 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.17E1 obj=7.7934 imp=.45E-3 bdf=.38E-1] solution has 3 nonzeros
+10-04 23:33:03.998 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.17E1 obj=7.7934 imp=.45E-3 bdf=.38E-1] train deviance = 8.093428519206023, test deviance = NaN
+10-04 23:33:03.999 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.16E1 obj=7.6231 imp=.45E-3 bdf=.38E-1] Got 2 active columns out of 2 total
+10-04 23:33:03.999 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.16E1 obj=7.6198 imp=.44E-3 bdf=.38E-1] solution has 3 nonzeros
+10-04 23:33:04.000 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.16E1 obj=7.6198 imp=.44E-3 bdf=.38E-1] train deviance = 7.804542128230764, test deviance = NaN
+10-04 23:33:04.000 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.15E1 obj=7.4508 imp=.44E-3 bdf=.38E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.001 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.15E1 obj=7.4477 imp=.43E-3 bdf=.37E-1] solution has 3 nonzeros
+10-04 23:33:04.001 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.15E1 obj=7.4477 imp=.43E-3 bdf=.37E-1] train deviance = 7.528699425720788, test deviance = NaN
+10-04 23:33:04.002 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.15E1 obj=7.2802 imp=.43E-3 bdf=.37E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.002 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.15E1 obj=7.2772 imp=.42E-3 bdf=.36E-1] solution has 3 nonzeros
+10-04 23:33:04.002 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.15E1 obj=7.2772 imp=.42E-3 bdf=.36E-1] train deviance = 7.265689320947142, test deviance = NaN
+10-04 23:33:04.003 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.14E1 obj=7.1116 imp=.42E-3 bdf=.36E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.004 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.14E1 obj=7.1087 imp=.41E-3 bdf=.36E-1] solution has 3 nonzeros
+10-04 23:33:04.004 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.14E1 obj=7.1087 imp=.41E-3 bdf=.36E-1] train deviance = 7.015268787227948, test deviance = NaN
+10-04 23:33:04.005 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.13E1 obj=6.945 imp=.41E-3 bdf=.36E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.005 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.13E1 obj=6.9423 imp=.4E-3 bdf=.35E-1] solution has 3 nonzeros
+10-04 23:33:04.005 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.13E1 obj=6.9423 imp=.4E-3 bdf=.35E-1] train deviance = 6.777166011078975, test deviance = NaN
+10-04 23:33:04.006 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.13E1 obj=6.7807 imp=.4E-3 bdf=.35E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.007 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.13E1 obj=6.7781 imp=.38E-3 bdf=.35E-1] solution has 3 nonzeros
+10-04 23:33:04.007 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.13E1 obj=6.7781 imp=.38E-3 bdf=.35E-1] train deviance = 6.5510835761720045, test deviance = NaN
+10-04 23:33:04.007 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.12E1 obj=6.6189 imp=.38E-3 bdf=.35E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.008 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.12E1 obj=6.6164 imp=.37E-3 bdf=.34E-1] solution has 3 nonzeros
+10-04 23:33:04.008 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.12E1 obj=6.6164 imp=.37E-3 bdf=.34E-1] train deviance = 6.336701645229293, test deviance = NaN
+10-04 23:33:04.009 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.12E1 obj=6.4597 imp=.37E-3 bdf=.34E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.010 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.12E1 obj=6.4574 imp=.36E-3 bdf=.33E-1] solution has 3 nonzeros
+10-04 23:33:04.010 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.12E1 obj=6.4574 imp=.36E-3 bdf=.33E-1] train deviance = 6.13371555027815, test deviance = NaN
+10-04 23:33:04.011 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.11E1 obj=6.3033 imp=.36E-3 bdf=.33E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.012 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.11E1 obj=6.3011 imp=.35E-3 bdf=.32E-1] solution has 3 nonzeros
+10-04 23:33:04.012 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.11E1 obj=6.3011 imp=.35E-3 bdf=.32E-1] train deviance = 5.941703963130863, test deviance = NaN
+10-04 23:33:04.013 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.11E1 obj=6.1497 imp=.35E-3 bdf=.32E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.014 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.11E1 obj=6.1476 imp=.34E-3 bdf=.32E-1] solution has 3 nonzeros
+10-04 23:33:04.014 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.11E1 obj=6.1476 imp=.34E-3 bdf=.32E-1] train deviance = 5.760329931257881, test deviance = NaN
+10-04 23:33:04.014 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.1E1 obj=5.9991 imp=.34E-3 bdf=.32E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.015 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.1E1 obj=5.9971 imp=.33E-3 bdf=.31E-1] solution has 3 nonzeros
+10-04 23:33:04.015 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.1E1 obj=5.9971 imp=.33E-3 bdf=.31E-1] train deviance = 5.589214557292166, test deviance = NaN
+10-04 23:33:04.016 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.97E0 obj=5.8516 imp=.33E-3 bdf=.31E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.016 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.97E0 obj=5.8497 imp=.32E-3 bdf=.3E-1] solution has 3 nonzeros
+10-04 23:33:04.017 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.97E0 obj=5.8497 imp=.32E-3 bdf=.3E-1] train deviance = 5.427971321229772, test deviance = NaN
+10-04 23:33:04.017 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.92E0 obj=5.7072 imp=.32E-3 bdf=.3E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.018 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.92E0 obj=5.7054 imp=.31E-3 bdf=.3E-1] solution has 3 nonzeros
+10-04 23:33:04.018 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.92E0 obj=5.7054 imp=.31E-3 bdf=.3E-1] train deviance = 5.276208654864187, test deviance = NaN
+10-04 23:33:04.020 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.88E0 obj=5.566 imp=.31E-3 bdf=.3E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.021 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.88E0 obj=5.5643 imp=.3E-3 bdf=.29E-1] solution has 3 nonzeros
+10-04 23:33:04.021 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.88E0 obj=5.5643 imp=.3E-3 bdf=.29E-1] train deviance = 5.133532345746858, test deviance = NaN
+10-04 23:33:04.022 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.84E0 obj=5.4281 imp=.3E-3 bdf=.29E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.023 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.84E0 obj=5.4266 imp=.29E-3 bdf=.28E-1] solution has 3 nonzeros
+10-04 23:33:04.023 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.84E0 obj=5.4266 imp=.29E-3 bdf=.28E-1] train deviance = 4.999547763265809, test deviance = NaN
+10-04 23:33:04.023 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.8E0 obj=5.2935 imp=.29E-3 bdf=.28E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.024 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.8E0 obj=5.2921 imp=.27E-3 bdf=.27E-1] solution has 3 nonzeros
+10-04 23:33:04.024 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.8E0 obj=5.2921 imp=.27E-3 bdf=.27E-1] train deviance = 4.873861900518061, test deviance = NaN
+10-04 23:33:04.025 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.76E0 obj=5.1623 imp=.27E-3 bdf=.27E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.026 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.76E0 obj=5.1609 imp=.26E-3 bdf=.27E-1] solution has 3 nonzeros
+10-04 23:33:04.026 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.76E0 obj=5.1609 imp=.26E-3 bdf=.27E-1] train deviance = 4.756085228656843, test deviance = NaN
+10-04 23:33:04.027 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.73E0 obj=5.0345 imp=.26E-3 bdf=.27E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.027 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.73E0 obj=5.0332 imp=.25E-3 bdf=.26E-1] solution has 3 nonzeros
+10-04 23:33:04.027 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.73E0 obj=5.0332 imp=.25E-3 bdf=.26E-1] train deviance = 4.6458333631318665, test deviance = NaN
+10-04 23:33:04.028 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.7E0 obj=4.91 imp=.25E-3 bdf=.26E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.029 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.7E0 obj=4.9088 imp=.24E-3 bdf=.25E-1] solution has 3 nonzeros
+10-04 23:33:04.029 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.7E0 obj=4.9088 imp=.24E-3 bdf=.25E-1] train deviance = 4.5427285436854845, test deviance = NaN
+10-04 23:33:04.030 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.67E0 obj=4.7889 imp=.24E-3 bdf=.25E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.031 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.67E0 obj=4.7878 imp=.23E-3 bdf=.24E-1] solution has 3 nonzeros
+10-04 23:33:04.031 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.67E0 obj=4.7878 imp=.23E-3 bdf=.24E-1] train deviance = 4.446400932103908, test deviance = NaN
+10-04 23:33:04.031 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.63E0 obj=4.6712 imp=.23E-3 bdf=.24E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.032 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.63E0 obj=4.6702 imp=.22E-3 bdf=.24E-1] solution has 3 nonzeros
+10-04 23:33:04.033 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.63E0 obj=4.6702 imp=.22E-3 bdf=.24E-1] train deviance = 4.356489733556411, test deviance = NaN
+10-04 23:33:04.033 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.61E0 obj=4.5569 imp=.22E-3 bdf=.24E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.034 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.61E0 obj=4.556 imp=.21E-3 bdf=.23E-1] solution has 3 nonzeros
+10-04 23:33:04.034 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.61E0 obj=4.556 imp=.21E-3 bdf=.23E-1] train deviance = 4.272644148877286, test deviance = NaN
+10-04 23:33:04.035 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.58E0 obj=4.446 imp=.21E-3 bdf=.23E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.035 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.58E0 obj=4.4451 imp=.2E-3 bdf=.22E-1] solution has 3 nonzeros
+10-04 23:33:04.036 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.58E0 obj=4.4451 imp=.2E-3 bdf=.22E-1] train deviance = 4.194524166381522, test deviance = NaN
+10-04 23:33:04.036 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.55E0 obj=4.3384 imp=.2E-3 bdf=.22E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.037 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.55E0 obj=4.3375 imp=.19E-3 bdf=.22E-1] solution has 3 nonzeros
+10-04 23:33:04.037 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.55E0 obj=4.3375 imp=.19E-3 bdf=.22E-1] train deviance = 4.121801202754341, test deviance = NaN
+10-04 23:33:04.038 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.53E0 obj=4.2341 imp=.19E-3 bdf=.22E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.038 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.53E0 obj=4.2333 imp=.18E-3 bdf=.21E-1] solution has 3 nonzeros
+10-04 23:33:04.038 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.53E0 obj=4.2333 imp=.18E-3 bdf=.21E-1] train deviance = 4.05415860325013, test deviance = NaN
+10-04 23:33:04.039 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.5E0 obj=4.133 imp=.18E-3 bdf=.21E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.040 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.5E0 obj=4.1323 imp=.18E-3 bdf=.2E-1] solution has 3 nonzeros
+10-04 23:33:04.040 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.5E0 obj=4.1323 imp=.18E-3 bdf=.2E-1] train deviance = 3.991292011892407, test deviance = NaN
+10-04 23:33:04.041 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.48E0 obj=4.0352 imp=.18E-3 bdf=.2E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.041 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.48E0 obj=4.0345 imp=.17E-3 bdf=.2E-1] solution has 3 nonzeros
+10-04 23:33:04.042 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.48E0 obj=4.0345 imp=.17E-3 bdf=.2E-1] train deviance = 3.932931289120802, test deviance = NaN
+10-04 23:33:04.042 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.46E0 obj=3.9405 imp=.17E-3 bdf=.2E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.043 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.46E0 obj=3.9399 imp=.16E-3 bdf=.19E-1] solution has 3 nonzeros
+10-04 23:33:04.043 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.46E0 obj=3.9399 imp=.16E-3 bdf=.19E-1] train deviance = 3.878754131449341, test deviance = NaN
+10-04 23:33:04.044 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.44E0 obj=3.8489 imp=.16E-3 bdf=.19E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.045 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.44E0 obj=3.8484 imp=.15E-3 bdf=.18E-1] solution has 3 nonzeros
+10-04 23:33:04.045 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.44E0 obj=3.8484 imp=.15E-3 bdf=.18E-1] train deviance = 3.8285155854187374, test deviance = NaN
+10-04 23:33:04.046 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.42E0 obj=3.7604 imp=.15E-3 bdf=.18E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.047 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.42E0 obj=3.7599 imp=.14E-3 bdf=.18E-1] solution has 3 nonzeros
+10-04 23:33:04.047 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.42E0 obj=3.7599 imp=.14E-3 bdf=.18E-1] train deviance = 3.781961988869663, test deviance = NaN
+10-04 23:33:04.048 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.4E0 obj=3.675 imp=.14E-3 bdf=.18E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.049 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.4E0 obj=3.6745 imp=.14E-3 bdf=.17E-1] solution has 3 nonzeros
+10-04 23:33:04.049 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.4E0 obj=3.6745 imp=.14E-3 bdf=.17E-1] train deviance = 3.738852250605987, test deviance = NaN
+10-04 23:33:04.049 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.38E0 obj=3.5924 imp=.14E-3 bdf=.17E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.050 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.38E0 obj=3.592 imp=.13E-3 bdf=.16E-1] solution has 3 nonzeros
+10-04 23:33:04.050 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.38E0 obj=3.592 imp=.13E-3 bdf=.16E-1] train deviance = 3.698957678005627, test deviance = NaN
+10-04 23:33:04.051 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.36E0 obj=3.5128 imp=.13E-3 bdf=.16E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.051 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.36E0 obj=3.5123 imp=.12E-3 bdf=.16E-1] solution has 3 nonzeros
+10-04 23:33:04.051 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.36E0 obj=3.5123 imp=.12E-3 bdf=.16E-1] train deviance = 3.66206173625676, test deviance = NaN
+10-04 23:33:04.052 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.35E0 obj=3.4359 imp=.12E-3 bdf=.16E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.053 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.35E0 obj=3.4355 imp=.12E-3 bdf=.15E-1] solution has 3 nonzeros
+10-04 23:33:04.053 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.35E0 obj=3.4355 imp=.12E-3 bdf=.15E-1] train deviance = 3.6279597591412767, test deviance = NaN
+10-04 23:33:04.053 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.33E0 obj=3.3618 imp=.12E-3 bdf=.15E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.054 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.33E0 obj=3.3614 imp=.11E-3 bdf=.15E-1] solution has 3 nonzeros
+10-04 23:33:04.054 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.33E0 obj=3.3614 imp=.11E-3 bdf=.15E-1] train deviance = 3.59645861948934, test deviance = NaN
+10-04 23:33:04.055 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.32E0 obj=3.2904 imp=.11E-3 bdf=.15E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.055 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.32E0 obj=3.2901 imp=.1E-3 bdf=.14E-1] solution has 3 nonzeros
+10-04 23:33:04.055 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.32E0 obj=3.2901 imp=.1E-3 bdf=.14E-1] train deviance = 3.5673763667915637, test deviance = NaN
+10-04 23:33:04.056 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.3E0 obj=3.2216 imp=.1E-3 bdf=.14E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.056 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.3E0 obj=3.2213 imp=.97E-4 bdf=.14E-1] solution has 3 nonzeros
+10-04 23:33:04.057 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.3E0 obj=3.2213 imp=.97E-4 bdf=.14E-1] train deviance = 3.5405418388159355, test deviance = NaN
+10-04 23:33:04.057 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.29E0 obj=3.1553 imp=.97E-4 bdf=.14E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.058 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.29E0 obj=3.155 imp=.91E-4 bdf=.13E-1] solution has 3 nonzeros
+10-04 23:33:04.058 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.29E0 obj=3.155 imp=.91E-4 bdf=.13E-1] train deviance = 3.51579425344255, test deviance = NaN
+10-04 23:33:04.059 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.27E0 obj=3.0915 imp=.91E-4 bdf=.13E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.059 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.27E0 obj=3.0913 imp=.86E-4 bdf=.13E-1] solution has 3 nonzeros
+10-04 23:33:04.059 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.27E0 obj=3.0913 imp=.86E-4 bdf=.13E-1] train deviance = 3.4929827863051437, test deviance = NaN
+10-04 23:33:04.060 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.26E0 obj=3.0302 imp=.86E-4 bdf=.13E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.061 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.26E0 obj=3.0299 imp=.8E-4 bdf=.12E-1] solution has 3 nonzeros
+10-04 23:33:04.061 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.26E0 obj=3.0299 imp=.8E-4 bdf=.12E-1] train deviance = 3.4719661392288117, test deviance = NaN
+10-04 23:33:04.061 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.25E0 obj=2.9711 imp=.8E-4 bdf=.12E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.062 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.25E0 obj=2.9709 imp=.76E-4 bdf=.12E-1] solution has 3 nonzeros
+10-04 23:33:04.062 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.25E0 obj=2.9709 imp=.76E-4 bdf=.12E-1] train deviance = 3.45261210387298, test deviance = NaN
+10-04 23:33:04.063 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.24E0 obj=2.9143 imp=.76E-4 bdf=.12E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.064 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.24E0 obj=2.9141 imp=.71E-4 bdf=.11E-1] solution has 3 nonzeros
+10-04 23:33:04.064 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.24E0 obj=2.9141 imp=.71E-4 bdf=.11E-1] train deviance = 3.4347971244479063, test deviance = NaN
+10-04 23:33:04.065 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.23E0 obj=2.8597 imp=.71E-4 bdf=.11E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.065 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.23E0 obj=2.8595 imp=.66E-4 bdf=.11E-1] solution has 3 nonzeros
+10-04 23:33:04.065 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.23E0 obj=2.8595 imp=.66E-4 bdf=.11E-1] train deviance = 3.418405862854835, test deviance = NaN
+10-04 23:33:04.066 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.22E0 obj=2.8072 imp=.66E-4 bdf=.11E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.066 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.22E0 obj=2.8071 imp=.62E-4 bdf=.1E-1] solution has 3 nonzeros
+10-04 23:33:04.066 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.22E0 obj=2.8071 imp=.62E-4 bdf=.1E-1] train deviance = 3.4033307691282744, test deviance = NaN
+10-04 23:33:04.067 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.21E0 obj=2.7568 imp=.62E-4 bdf=.1E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.067 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.21E0 obj=2.7567 imp=.58E-4 bdf=.1E-1] solution has 3 nonzeros
+10-04 23:33:04.068 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.21E0 obj=2.7567 imp=.58E-4 bdf=.1E-1] train deviance = 3.389471659614287, test deviance = NaN
+10-04 23:33:04.068 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.2E0 obj=2.7084 imp=.58E-4 bdf=.1E-1] Got 2 active columns out of 2 total
+10-04 23:33:04.069 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.2E0 obj=2.7082 imp=.55E-4 bdf=.97E-2] solution has 3 nonzeros
+10-04 23:33:04.069 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.2E0 obj=2.7082 imp=.55E-4 bdf=.97E-2] train deviance = 3.3767353049189524, test deviance = NaN
+10-04 23:33:04.070 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.19E0 obj=2.6619 imp=.55E-4 bdf=.97E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.070 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.19E0 obj=2.6618 imp=.51E-4 bdf=.93E-2] solution has 3 nonzeros
+10-04 23:33:04.070 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.19E0 obj=2.6618 imp=.51E-4 bdf=.93E-2] train deviance = 3.3650350292913345, test deviance = NaN
+10-04 23:33:04.071 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.18E0 obj=2.6172 imp=.51E-4 bdf=.93E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.071 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.18E0 obj=2.6171 imp=.48E-4 bdf=.89E-2] solution has 3 nonzeros
+10-04 23:33:04.072 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.18E0 obj=2.6171 imp=.48E-4 bdf=.89E-2] train deviance = 3.3542903227770844, test deviance = NaN
+10-04 23:33:04.072 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.17E0 obj=2.5744 imp=.48E-4 bdf=.89E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.073 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.17E0 obj=2.5743 imp=.44E-4 bdf=.86E-2] solution has 3 nonzeros
+10-04 23:33:04.073 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.17E0 obj=2.5743 imp=.44E-4 bdf=.86E-2] train deviance = 3.3444264671813926, test deviance = NaN
+10-04 23:33:04.074 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.16E0 obj=2.5333 imp=.44E-4 bdf=.86E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.074 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.16E0 obj=2.5332 imp=.41E-4 bdf=.82E-2] solution has 3 nonzeros
+10-04 23:33:04.074 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.16E0 obj=2.5332 imp=.41E-4 bdf=.82E-2] train deviance = 3.3353741766148914, test deviance = NaN
+10-04 23:33:04.075 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.16E0 obj=2.4938 imp=.41E-4 bdf=.82E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.075 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.16E0 obj=2.4937 imp=.39E-4 bdf=.79E-2] solution has 3 nonzeros
+10-04 23:33:04.076 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.16E0 obj=2.4937 imp=.39E-4 bdf=.79E-2] train deviance = 3.3270692531677164, test deviance = NaN
+10-04 23:33:04.076 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.15E0 obj=2.456 imp=.39E-4 bdf=.79E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.077 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.15E0 obj=2.4559 imp=.36E-4 bdf=.76E-2] solution has 3 nonzeros
+10-04 23:33:04.077 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.15E0 obj=2.4559 imp=.36E-4 bdf=.76E-2] train deviance = 3.3194522580482726, test deviance = NaN
+10-04 23:33:04.078 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.14E0 obj=2.4197 imp=.36E-4 bdf=.76E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.078 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.14E0 obj=2.4197 imp=.33E-4 bdf=.73E-2] solution has 3 nonzeros
+10-04 23:33:04.078 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.14E0 obj=2.4197 imp=.33E-4 bdf=.73E-2] train deviance = 3.3124681983514392, test deviance = NaN
+10-04 23:33:04.079 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.14E0 obj=2.385 imp=.33E-4 bdf=.73E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.080 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.14E0 obj=2.3849 imp=.31E-4 bdf=.7E-2] solution has 3 nonzeros
+10-04 23:33:04.080 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.14E0 obj=2.3849 imp=.31E-4 bdf=.7E-2] train deviance = 3.306066229465614, test deviance = NaN
+10-04 23:33:04.080 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.13E0 obj=2.3516 imp=.31E-4 bdf=.7E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.081 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.13E0 obj=2.3515 imp=.29E-4 bdf=.67E-2] solution has 3 nonzeros
+10-04 23:33:04.081 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.13E0 obj=2.3515 imp=.29E-4 bdf=.67E-2] train deviance = 3.300199373001457, test deviance = NaN
+10-04 23:33:04.081 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.12E0 obj=2.3197 imp=.29E-4 bdf=.67E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.082 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.12E0 obj=2.3196 imp=.27E-4 bdf=.64E-2] solution has 3 nonzeros
+10-04 23:33:04.082 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.12E0 obj=2.3196 imp=.27E-4 bdf=.64E-2] train deviance = 3.2948242500155325, test deviance = NaN
+10-04 23:33:04.082 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.12E0 obj=2.2891 imp=.27E-4 bdf=.64E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.083 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.12E0 obj=2.289 imp=.25E-4 bdf=.61E-2] solution has 3 nonzeros
+10-04 23:33:04.083 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.12E0 obj=2.289 imp=.25E-4 bdf=.61E-2] train deviance = 3.2899008292112057, test deviance = NaN
+10-04 23:33:04.083 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.11E0 obj=2.2597 imp=.25E-4 bdf=.61E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.084 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.11E0 obj=2.2597 imp=.23E-4 bdf=.59E-2] solution has 3 nonzeros
+10-04 23:33:04.084 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.11E0 obj=2.2597 imp=.23E-4 bdf=.59E-2] train deviance = 3.2853921897284786, test deviance = NaN
+10-04 23:33:04.084 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.11E0 obj=2.2316 imp=.23E-4 bdf=.59E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.085 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.11E0 obj=2.2316 imp=.21E-4 bdf=.56E-2] solution has 3 nonzeros
+10-04 23:33:04.085 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.11E0 obj=2.2316 imp=.21E-4 bdf=.56E-2] train deviance = 3.281264298073135, test deviance = NaN
+10-04 23:33:04.086 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.1E0 obj=2.2047 imp=.21E-4 bdf=.56E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.086 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.1E0 obj=2.2047 imp=.2E-4 bdf=.54E-2] solution has 3 nonzeros
+10-04 23:33:04.086 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.1E0 obj=2.2047 imp=.2E-4 bdf=.54E-2] train deviance = 3.2774857986918278, test deviance = NaN
+10-04 23:33:04.087 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.99E-1 obj=2.179 imp=.2E-4 bdf=.54E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.087 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.99E-1 obj=2.1789 imp=.18E-4 bdf=.52E-2] solution has 3 nonzeros
+10-04 23:33:04.087 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.99E-1 obj=2.1789 imp=.18E-4 bdf=.52E-2] train deviance = 3.274022618521144, test deviance = NaN
+10-04 23:33:04.088 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.94E-1 obj=2.1543 imp=.18E-4 bdf=.52E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.088 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.94E-1 obj=2.1542 imp=.17E-4 bdf=.49E-2] solution has 3 nonzeros
+10-04 23:33:04.089 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.94E-1 obj=2.1542 imp=.17E-4 bdf=.49E-2] train deviance = 3.2708588746586806, test deviance = NaN
+10-04 23:33:04.090 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.9E-1 obj=2.1307 imp=.17E-4 bdf=.49E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.090 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.9E-1 obj=2.1306 imp=.16E-4 bdf=.47E-2] solution has 3 nonzeros
+10-04 23:33:04.090 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.9E-1 obj=2.1306 imp=.16E-4 bdf=.47E-2] train deviance = 3.267964675592149, test deviance = NaN
+10-04 23:33:04.091 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.86E-1 obj=2.1081 imp=.16E-4 bdf=.47E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.093 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.86E-1 obj=2.108 imp=.14E-4 bdf=.45E-2] solution has 3 nonzeros
+10-04 23:33:04.093 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.86E-1 obj=2.108 imp=.14E-4 bdf=.45E-2] train deviance = 3.265317465048838, test deviance = NaN
+10-04 23:33:04.094 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.82E-1 obj=2.0864 imp=.14E-4 bdf=.45E-2] Got 2 active columns out of 2 total
+10-04 23:33:04.094 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.82E-1 obj=2.0864 imp=.13E-4 bdf=.43E-2] solution has 3 nonzeros
+10-04 23:33:04.095 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.82E-1 obj=2.0864 imp=.13E-4 bdf=.43E-2] train deviance = 3.2628965751048327, test deviance = NaN
+10-04 23:33:04.095 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.82E-1 obj=2.0864 imp=.13E-4 bdf=.43E-2] Scoring after 353ms
+10-04 23:33:04.181 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.82E-1 obj=2.0864 imp=.13E-4 bdf=.43E-2] Training metrics computed in 86ms
+10-04 23:33:04.182 127.0.0.1:54321       1124   FJ-1-7    INFO: GLM[dest=GLM_model_R_1475620367059_1, iter=0 lmb=.82E-1 obj=2.0864 imp=.13E-4 bdf=.43E-2] Model Metrics Type: RegressionGLM
+10-04 23:33:04.182 127.0.0.1:54321       1124   FJ-1-7    INFO:  Description: N/A
+10-04 23:33:04.182 127.0.0.1:54321       1124   FJ-1-7    INFO:  model id: GLM_model_R_1475620367059_1
+10-04 23:33:04.182 127.0.0.1:54321       1124   FJ-1-7    INFO:  frame id: frame_rdd_41
+10-04 23:33:04.182 127.0.0.1:54321       1124   FJ-1-7    INFO:  MSE: 3.262896
+10-04 23:33:04.182 127.0.0.1:54321       1124   FJ-1-7    INFO:  RMSE: 1.8063488
+10-04 23:33:04.182 127.0.0.1:54321       1124   FJ-1-7    INFO:  mean residual deviance: 3.262896
+10-04 23:33:04.182 127.0.0.1:54321       1124   FJ-1-7    INFO:  mean absolute error: 1.4110689
+10-04 23:33:04.182 127.0.0.1:54321       1124   FJ-1-7    INFO:  root mean squared log error: 0.09689482
+10-04 23:33:04.182 127.0.0.1:54321       1124   FJ-1-7    INFO:  null DOF: 11.0
+10-04 23:33:04.182 127.0.0.1:54321       1124   FJ-1-7    INFO:  residual DOF: 9.0
+10-04 23:33:04.182 127.0.0.1:54321       1124   FJ-1-7    INFO:  null deviance: 290.99667
+10-04 23:33:04.182 127.0.0.1:54321       1124   FJ-1-7    INFO:  residual deviance: 39.15475
+10-04 23:33:04.182 127.0.0.1:54321       1124   FJ-1-7    INFO:  AIC: 56.245907
+10-04 23:33:04.951 127.0.0.1:54321       1124   #8571-198 INFO: GET /3/Models/GLM_model_R_1475620367059_1, parms: {}
