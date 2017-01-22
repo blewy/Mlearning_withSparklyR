@@ -13,7 +13,9 @@ library(proxy)
 library(Matrix)
 #for svd
 library(irlba)
+library(plotly)
 #spark_disconnect(sc)
+#spark_install(version = "1.6.2")
 sc <- spark_connect("local", version = "1.6.2")
 
 
@@ -55,8 +57,11 @@ Ocupation_Analysis<-user %>%                    # take the data.frame "data"
 
 Occupation <-user %>% select(occupation) %>% collect()
 
-ggplot(Occupation, aes(x=reorder(occupation, -table(occupation)[occupation]))) + geom_bar()
 
+
+
+p <- ggplot(Occupation, aes(x=reorder(occupation, -table(occupation)[occupation]))) + geom_bar()
+ggplotly(p)
 
 ## -------  Exploring the movie dataset  --------
 
@@ -67,14 +72,96 @@ head(movies)
 movies <- copy_to(sc, movies, "movies",  overwrite = TRUE )
 
 substrRight <- function(x, n){
-  substr(x, nchar(x)-n+1, nchar(x))
+  ifelse(substr(x, nchar(x)-n+1, nchar(x)),"1900",substr(x, nchar(x)-n+1, nchar(x)))
 }
 
 release_date_teste<- movies %>% select(release_date) %>% collect()
 
-mutate(movies, year = (substrRight(release_date,4) ))
+
+
+movies<- mutate(movies, year = (substr(release_date, nchar(release_date)-4+1, nchar(release_date))))
+movies<-mutate(movies, year = ifelse(year=="","1900", year))
+movies<-mutate(movies, year = as.integer(year))
+
+years <- movies %>% select(year) %>% collect()
+table(years)
+
+years_filtered <- movies %>% filter(year != 1900)
+
+movie_ages <- mutate(years_filtered, ages =1998 - year)  %>% select(ages) %>% collect() 
+
+table(movie_ages)
+
+ggplot(movie_ages, aes(x=movie_ages)) + geom_bar()
+
+
+## -------  Exploring the Rating dataset  --------
+
+#Ratings Dataset
+ratings <- read.table("./data/movies/ml-100k/u.data",header=FALSE,col.names = c("user","item", "rating","timestamp"))
+head(ratings)
+
+ratings <- copy_to(sc, ratings, "ratings")
+
+n_ratings <- ratings %>% summarise(count = n()) %>% collect()
+
+options("scipen"=100, "digits"=4)
+cat("\nNumber of Ratings: ", n_ratings$count )
+
+
+RatingAnalysis<- ratings %>%
+  summarize(count = n(), mean_rating = mean(rating), max_rating=max(rating), min_rating=min(rating),users= n_distinct(user),items= n_distinct(item)) %>% collect()
+
+
+cat("\nMinimum of Ratings: ", RatingAnalysis$min_rating )
+cat("\nMaximun of Ratings: ", RatingAnalysis$max_rating )
+cat("\nMean Rating: ", RatingAnalysis$mean_rating )
+cat("\nAverage # of ratings per user:", RatingAnalysis$count/RatingAnalysis$users)
+cat("\nAverage # of ratings per movie: ", RatingAnalysis$count/RatingAnalysis$items)
+
+
+
+count_by_rating <- ratings %>%
+  group_by(rating) %>%
+  arrange(rating) %>%
+  summarize(count = n()) %>% collect()
+count_by_rating
+
+
+user_rates <- ratings %>% select(rating) %>% arrange(rating) %>% collect()
+p <- ggplot(user_rates, aes(x=rating)) + geom_bar()
+p
+ggplotly(p)
+
+
+
+users_ratings <-  ratings %>%
+  arrange(user) %>%
+  group_by(user) %>%
+  summarize(count=n(),sum = sum(rating), mean_rating = mean(rating)) %>% collect()
+users_ratings
+
+p1 <- ggplot(users_ratings, aes(x=count)) + geom_bar()
+p1
+ggplotly(p1)
+
+####  -----------  Processing and transforming your data  -------------
+
+# • Filter out or remove records with bad or missing values: This is sometimes unavoidable; however, this means losing the good part of a bad or missing record.
+
+# • Fill in bad or missing data: We can try to assign a value to bad or missing data based on the rest of the data we have available. Approaches can include assigning a zero value, assigning the global mean or median, interpolating nearby or similar data points (usually, in a time-series dataset), and so on. Deciding on the correct approach is often a tricky task and depends on the data, situation, and one's own experience.
+
+# • Apply robust techniques to outliers: The main issue with outliers is that they might be correct values, even though they are extreme. They might also be errors. It is often very difficult to know which case you are dealing with. Outliers can also be removed or filled in, although fortunately, there are statistical techniques (such as robust regression) to handle outliers and extreme values.
+
+# • Apply transformations to potential outliers: Another approach for outliers or extreme values is to apply transformations, such as a logarithmic or Gaussian kernel transformation, to features that have potential outliers, or display large ranges of potential values. These types of transformations have the effect of dampening the impact of large changes in the scale of a variable and turning a nonlinear relationship into one that is linear.
+
+
+#### Filling in bad or missing data
+
+mutate(flights, speed = distance / air_time * 60)
 
 #---------- Documentation -----------
 
 # https://github.com/JustinChu/STAT545A_MovieStats/blob/master/cleanMovieLensData.R
 
+#https://github.com/JustinChu/STAT545A_MovieStats/blob/master/cleanMovieLensData.R
