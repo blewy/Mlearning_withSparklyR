@@ -145,6 +145,44 @@ p1 <- ggplot(users_ratings, aes(x=count)) + geom_bar()
 p1
 ggplotly(p1)
 
+###  ---- Processing and transforming your data   --------
+
+mutate(teste, mean_year = mean(year)) 
+
+
+teste<-movies %>% filter(year != 1900) %>% select(year) %>% collect()
+
+
+cat("\n Mean year of release : ", mean(teste$year) )
+cat("\n Median year of release : ", median(teste$year) )
+
+
+
+stats<- teste %>% mutate( mean_year = mean(year), median_year = median(year)) %>% collect()
+
+### ---- Extracting useful features from your data  ------------
+
+# • Numerical features: These features are typically real or integer numbers, for example, the user age that we used in an example earlier.
+
+# • Categorical features: These features refer to variables that can take one of a set of possible states at any given time. Examples from our dataset might include a user's gender or occupation or movie categories.
+
+# • Text features: These are features derived from the text content in the data, for example, movie titles, descriptions, or reviews.
+
+# • Other features: Most other types of features are ultimately represented numerically. For example, images, video, and audio can be represented as sets of numerical data. Geographical locations can be represented as latitude and longitude or geohash data.
+
+### ------- Numerical features  ------------
+
+### ------- Categoriacal features  ------------
+
+Ocupation_unique<-user %>%                   
+  filter(!is.na(age)) %>%  
+  group_by(occupation) %>% 
+  arrange(desc(occupation)) %>% 
+  summarise(Count=n()) %>%
+  collect()
+
+
+
 ####  -----------  Processing and transforming your data  -------------
 
 # • Filter out or remove records with bad or missing values: This is sometimes unavoidable; however, this means losing the good part of a bad or missing record.

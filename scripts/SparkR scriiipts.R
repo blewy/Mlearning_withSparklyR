@@ -1,4 +1,3 @@
-# https://blog.rstudio.org/2016/09/27/sparklyr-r-interface-for-apache-spark/
 
 # http://spark.rstudio.com/index.html
 
